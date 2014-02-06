@@ -1,9 +1,7 @@
 //
 //  TLNumberBadgeView.m
-//  TrivialLife
 //
 //  Created by Ayal Nilupa Herath on 1/8/14.
-//  Copyright (c) 2014 Unicorn Solutions. All rights reserved.
 //
 
 #import "AyalBadgeView.h"
