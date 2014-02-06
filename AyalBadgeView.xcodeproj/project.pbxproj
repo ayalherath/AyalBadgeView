@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49530C1518A39724005D8949 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49530C1418A39724005D8949 /* Foundation.framework */; };
+		49530C1718A39724005D8949 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49530C1618A39724005D8949 /* CoreGraphics.framework */; };
+		49530C1918A39724005D8949 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49530C1818A39724005D8949 /* UIKit.framework */; };
+		49530C1F18A39724005D8949 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49530C1D18A39724005D8949 /* InfoPlist.strings */; };
+		49530C2118A39724005D8949 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49530C2018A39724005D8949 /* main.m */; };
+		49530C2518A39724005D8949 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49530C2418A39724005D8949 /* AppDelegate.m */; };
+		49530C2718A39724005D8949 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49530C2618A39724005D8949 /* Images.xcassets */; };
+		49530C2E18A39724005D8949 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49530C2D18A39724005D8949 /* XCTest.framework */; };
+		49530C2F18A39724005D8949 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49530C1418A39724005D8949 /* Foundation.framework */; };
+		49530C3018A39724005D8949 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49530C1818A39724005D8949 /* UIKit.framework */; };
+		49530C4618A3977E005D8949 /* AyalBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49530C4518A3977E005D8949 /* AyalBadgeView.m */; };
+		49530C4918A39825005D8949 /* BadgeViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49530C4818A39825005D8949 /* BadgeViewTestViewController.m */; };
+		49530C4D18A39AB2005D8949 /* ic_actionbar_events_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 49530C4B18A39AB2005D8949 /* ic_actionbar_events_active.png */; };
+		49530C4E18A39AB2005D8949 /* ic_actionbar_friend_request_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 49530C4C18A39AB2005D8949 /* ic_actionbar_friend_request_active.png */; };
+		49530C5018A39C8D005D8949 /* Notification_badgeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 49530C4F18A39C8D005D8949 /* Notification_badgeIcon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49530C3118A39724005D8949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49530C0918A39723005D8949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49530C1018A39724005D8949;
+			remoteInfo = AyalBadgeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49530C1118A39724005D8949 /* AyalBadgeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AyalBadgeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49530C1418A39724005D8949 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49530C1618A39724005D8949 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		49530C1818A39724005D8949 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		49530C1C18A39724005D8949 /* AyalBadgeView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AyalBadgeView-Info.plist"; sourceTree = "<group>"; };
+		49530C1E18A39724005D8949 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49530C2018A39724005D8949 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49530C2218A39724005D8949 /* AyalBadgeView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AyalBadgeView-Prefix.pch"; sourceTree = "<group>"; };
+		49530C2318A39724005D8949 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49530C2418A39724005D8949 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49530C2618A39724005D8949 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		49530C2C18A39724005D8949 /* AyalBadgeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AyalBadgeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49530C2D18A39724005D8949 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		49530C4418A3977E005D8949 /* AyalBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AyalBadgeView.h; sourceTree = "<group>"; };
+		49530C4518A3977E005D8949 /* AyalBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AyalBadgeView.m; sourceTree = "<group>"; };
+		49530C4718A39825005D8949 /* BadgeViewTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadgeViewTestViewController.h; sourceTree = "<group>"; };
+		49530C4818A39825005D8949 /* BadgeViewTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadgeViewTestViewController.m; sourceTree = "<group>"; };
+		49530C4B18A39AB2005D8949 /* ic_actionbar_events_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_actionbar_events_active.png; sourceTree = "<group>"; };
+		49530C4C18A39AB2005D8949 /* ic_actionbar_friend_request_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_actionbar_friend_request_active.png; sourceTree = "<group>"; };
+		49530C4F18A39C8D005D8949 /* Notification_badgeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Notification_badgeIcon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49530C0E18A39724005D8949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49530C1718A39724005D8949 /* CoreGraphics.framework in Frameworks */,
+				49530C1918A39724005D8949 /* UIKit.framework in Frameworks */,
+				49530C1518A39724005D8949 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49530C2918A39724005D8949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49530C2E18A39724005D8949 /* XCTest.framework in Frameworks */,
+				49530C3018A39724005D8949 /* UIKit.framework in Frameworks */,
+				49530C2F18A39724005D8949 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49530C0818A39723005D8949 = {
+			isa = PBXGroup;
+			children = (
+				49530C1A18A39724005D8949 /* AyalBadgeView */,
+				49530C1318A39724005D8949 /* Frameworks */,
+				49530C1218A39724005D8949 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49530C1218A39724005D8949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49530C1118A39724005D8949 /* AyalBadgeView.app */,
+				49530C2C18A39724005D8949 /* AyalBadgeViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49530C1318A39724005D8949 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49530C1418A39724005D8949 /* Foundation.framework */,
+				49530C1618A39724005D8949 /* CoreGraphics.framework */,
+				49530C1818A39724005D8949 /* UIKit.framework */,
+				49530C2D18A39724005D8949 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49530C1A18A39724005D8949 /* AyalBadgeView */ = {
+			isa = PBXGroup;
+			children = (
+				49530C4A18A39AA3005D8949 /* Images */,
+				49530C4318A3973A005D8949 /* BadgeView */,
+				49530C2318A39724005D8949 /* AppDelegate.h */,
+				49530C2418A39724005D8949 /* AppDelegate.m */,
+				49530C2618A39724005D8949 /* Images.xcassets */,
+				49530C1B18A39724005D8949 /* Supporting Files */,
+				49530C4718A39825005D8949 /* BadgeViewTestViewController.h */,
+				49530C4818A39825005D8949 /* BadgeViewTestViewController.m */,
+			);
+			path = AyalBadgeView;
+			sourceTree = "<group>";
+		};
+		49530C1B18A39724005D8949 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49530C1C18A39724005D8949 /* AyalBadgeView-Info.plist */,
+				49530C1D18A39724005D8949 /* InfoPlist.strings */,
+				49530C2018A39724005D8949 /* main.m */,
+				49530C2218A39724005D8949 /* AyalBadgeView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49530C4318A3973A005D8949 /* BadgeView */ = {
+			isa = PBXGroup;
+			children = (
+				49530C4F18A39C8D005D8949 /* Notification_badgeIcon.png */,
+				49530C4418A3977E005D8949 /* AyalBadgeView.h */,
+				49530C4518A3977E005D8949 /* AyalBadgeView.m */,
+			);
+			name = BadgeView;
+			sourceTree = "<group>";
+		};
+		49530C4A18A39AA3005D8949 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				49530C4B18A39AB2005D8949 /* ic_actionbar_events_active.png */,
+				49530C4C18A39AB2005D8949 /* ic_actionbar_friend_request_active.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49530C1018A39724005D8949 /* AyalBadgeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49530C3D18A39724005D8949 /* Build configuration list for PBXNativeTarget "AyalBadgeView" */;
+			buildPhases = (
+				49530C0D18A39724005D8949 /* Sources */,
+				49530C0E18A39724005D8949 /* Frameworks */,
+				49530C0F18A39724005D8949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AyalBadgeView;
+			productName = AyalBadgeView;
+			productReference = 49530C1118A39724005D8949 /* AyalBadgeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49530C2B18A39724005D8949 /* AyalBadgeViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49530C4018A39724005D8949 /* Build configuration list for PBXNativeTarget "AyalBadgeViewTests" */;
+			buildPhases = (
+				49530C2818A39724005D8949 /* Sources */,
+				49530C2918A39724005D8949 /* Frameworks */,
+				49530C2A18A39724005D8949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49530C3218A39724005D8949 /* PBXTargetDependency */,
+			);
+			name = AyalBadgeViewTests;
+			productName = AyalBadgeViewTests;
+			productReference = 49530C2C18A39724005D8949 /* AyalBadgeViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49530C0918A39723005D8949 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Ayal Nilupa Herath";
+				TargetAttributes = {
+					49530C2B18A39724005D8949 = {
+						TestTargetID = 49530C1018A39724005D8949;
+					};
+				};
+			};
+			buildConfigurationList = 49530C0C18A39724005D8949 /* Build configuration list for PBXProject "AyalBadgeView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49530C0818A39723005D8949;
+			productRefGroup = 49530C1218A39724005D8949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49530C1018A39724005D8949 /* AyalBadgeView */,
+				49530C2B18A39724005D8949 /* AyalBadgeViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49530C0F18A39724005D8949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49530C1F18A39724005D8949 /* InfoPlist.strings in Resources */,
+				49530C5018A39C8D005D8949 /* Notification_badgeIcon.png in Resources */,
+				49530C4E18A39AB2005D8949 /* ic_actionbar_friend_request_active.png in Resources */,
+				49530C2718A39724005D8949 /* Images.xcassets in Resources */,
+				49530C4D18A39AB2005D8949 /* ic_actionbar_events_active.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49530C2A18A39724005D8949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49530C0D18A39724005D8949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49530C4618A3977E005D8949 /* AyalBadgeView.m in Sources */,
+				49530C4918A39825005D8949 /* BadgeViewTestViewController.m in Sources */,
+				49530C2518A39724005D8949 /* AppDelegate.m in Sources */,
+				49530C2118A39724005D8949 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49530C2818A39724005D8949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49530C3218A39724005D8949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49530C1018A39724005D8949 /* AyalBadgeView */;
+			targetProxy = 49530C3118A39724005D8949 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49530C1D18A39724005D8949 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49530C1E18A39724005D8949 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49530C3B18A39724005D8949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49530C3C18A39724005D8949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49530C3E18A39724005D8949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AyalBadgeView/AyalBadgeView-Prefix.pch";
+				INFOPLIST_FILE = "AyalBadgeView/AyalBadgeView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		49530C3F18A39724005D8949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AyalBadgeView/AyalBadgeView-Prefix.pch";
+				INFOPLIST_FILE = "AyalBadgeView/AyalBadgeView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		49530C4118A39724005D8949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AyalBadgeView.app/AyalBadgeView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AyalBadgeView/AyalBadgeView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AyalBadgeViewTests/AyalBadgeViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		49530C4218A39724005D8949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AyalBadgeView.app/AyalBadgeView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AyalBadgeView/AyalBadgeView-Prefix.pch";
+				INFOPLIST_FILE = "AyalBadgeViewTests/AyalBadgeViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49530C0C18A39724005D8949 /* Build configuration list for PBXProject "AyalBadgeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49530C3B18A39724005D8949 /* Debug */,
+				49530C3C18A39724005D8949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49530C3D18A39724005D8949 /* Build configuration list for PBXNativeTarget "AyalBadgeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49530C3E18A39724005D8949 /* Debug */,
+				49530C3F18A39724005D8949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49530C4018A39724005D8949 /* Build configuration list for PBXNativeTarget "AyalBadgeViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49530C4118A39724005D8949 /* Debug */,
+				49530C4218A39724005D8949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49530C0918A39723005D8949 /* Project object */;
+}
